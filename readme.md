@@ -22,7 +22,7 @@ Una vez que se han seguido los pasos de instalación y se tienen las dependencia
 Abrir una terminal en el directorio raíz del proyecto.
 Ejecutar el comando:
 
-- `python main.py.`
+- `python src\main.py.`
 
 Esto iniciará la aplicación de la calculadora en una ventana gráfica.
 
@@ -38,4 +38,8 @@ Si desea contribuir al desarrollo de la calculadora, puede hacer lo siguiente:
 
 
 # ***Tests unitarios***
-Se han implementado tests unitarios para asegurarnos de que la calculadora funciona correctamente. Los tests se encuentran en el archivo test_calculadora.py y se pueden ejecutar utilizando el comando python3 -m unittest desde la carpeta donde se encuentran los archivos. Los tests comprueban que la calculadora realiza correctamente las operaciones matemáticas y que la pantalla se borra correctamente al hacer clic en el botón "C".
+Se han implementado tests unitarios para asegurarnos de que la calculadora funciona correctamente. Los tests se encuentran en el archivo test_calculadora.py y se pueden ejecutar utilizando el comando
+
+- `python -m unittest`
+
+desde la carpeta donde se encuentran los archivos. Los tests comprueban que la calculadora realiza correctamente las operaciones matemáticas y que la pantalla se borra correctamente al hacer clic en el botón "C".
